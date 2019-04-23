@@ -1,0 +1,31 @@
+.navBar {
+  height: 30vh;
+  /* margin: 10vh; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#name {
+  font-size: 50px;
+  padding-left: 10px;
+  flex: 1;
+  text-align: center;
+}
+#contact {
+  display: flex;
+  flex: 1;
+  /* margin-left: 10vw; */
+  flex-direction: column;
+  align-items: center;
+}
+
+.blue {
+  color: blue;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 650px) {
+  .navBar {
+    flex-direction: column;
+  }
+}

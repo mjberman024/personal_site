@@ -1,0 +1,24 @@
+#splash {
+  height: 55vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#headshot {
+  width: auto;
+  height: 80%;
+  border-radius: 100%;
+}
+
+#about {
+  font-size: 40px;
+  color: black;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 650px) {
+  #splash {
+    margin-top: 15vh;
+  }
+}
